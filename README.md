@@ -59,7 +59,7 @@ You should see output:
 <summary>Show expected output</summary>
 
 ```shell
-dotnet-coverage v18.4.1.0 [win-x64 - .NET 8.0.23]
+dotnet-coverage v18.8.0 [win-x64 - .NET 8.0.23]
 
 SessionId: f2255bb7-259f-4c01-8360-bf7be4f8c5f8
 Hello, World!
@@ -71,8 +71,8 @@ Code coverage results: output.coverage.
 For existing projects to get latest features and best performance please keep up to date below references:
 
 ```xml
-<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
-<PackageReference Include="Microsoft.CodeCoverage" Version="18.0.1" />
+<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.7.0" />
+<PackageReference Include="Microsoft.CodeCoverage" Version="18.7.0" />
 ```
 
 If your solution doesn't contain any C++ code it is recommended to disable native code coverage by adding into configuration below flags:
